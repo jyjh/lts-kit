@@ -33,7 +33,7 @@ The runner assembles a temporary `+lts/+util` package sandbox in `build/`
 
 ## Layout and workflow
 
-- `main` — stable, release-only. `staging` — where PRs from forks land.
+- `main` — stable, release-only; advances only via the release cascade from the main `lts` repository. `staging` — where PRs from forks land.
 - All development is done on forks; see [CONTRIBUTING.md](CONTRIBUTING.md).
 - Contract and repository-split context:
   <https://jyjh.github.io/lts/repo-split/>
